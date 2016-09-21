@@ -1,0 +1,10 @@
+.tbl_first, .tbl_first tr, .tbl_first td {
+/*.tbl_first {*/
+  border: 1px solid blue;
+}
+
+/* Add new class to highlight odd and even rows. */
+/* The new class will be called from JS script.  */
+.highlight {
+  background-color: green;
+}

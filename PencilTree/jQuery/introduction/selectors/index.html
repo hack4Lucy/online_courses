@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Selectors</title>
+    <title>jQuery example</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
   </head>
   <body>
 
@@ -23,13 +24,36 @@
     </p> -->
 
     <!-- Multiple selectors -->
-    <input id="btn1" type="button" value="Press me">
+    <!-- <input id="btn1" type="button" value="Press me">
     <p id="para1">
       Some text here
-    </p>
+    </p> -->
+
+    <!-- 'This' Selector -->
+    <!-- <input id="btn_click" type="button" value="Click me"> -->
+
+    <!-- Even/Odd selectors using the TABLE class -->
+    <!-- The CLASS will be used in CSS -->
+    <!-- <table class="tbl_first">
+      <tr><td>First row</td></tr>
+      <tr><td>Second row</td></tr>
+      <tr><td>Third row</td></tr>
+      <tr><td>Fourth row</td></tr>
+    </table>
+    <br><br> -->
+
+    <div class="area">
+      <!-- Here, only CLASS attribute is allowed in order to access it from JS. --> 
+      <!--The ID attr is not possible. -->
+      <p>Text1</p>
+      <p>Text2</p>
+      <p>Text3</p>
+      <p>Text4</p>
+    </div>
 
 
     <script type="text/javascript" src="js/jquery-3_1_0_min.js"></script>
     <script type="text/javascript" src="js/selectors.js"></script>
+    <script type="text/javascript" src="js/table.js"></script>
   </body>
 </html>

@@ -48,6 +48,12 @@
 //   alert('Something was pressed/clicked!');
 // });
 
-$('#btn1, #para1').click(function() {
-  alert('Something was pressed/clicked!');
-});
+// $('#btn1, #para1').click(function() {
+//   alert('Something was pressed/clicked!');
+// });
+
+// 'This' selector
+// $('#btn_click').click(function() {
+//   // $('#btn_click').attr('value', 'Please wait while dying...');
+//   $(this).attr('value', 'Please wait while dying...');    // works too using THIS selector
+// });
